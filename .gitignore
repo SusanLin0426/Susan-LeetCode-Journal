@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.dylib
+
+# Virtual env
+.venv/
+
+# Test & coverage
+.pytest_cache/
+.coverage
+coverage*
+*.cover
+htmlcov/
+
+# Type checking / lint caches
+.mypy_cache/
+.ruff_cache/
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
