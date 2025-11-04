@@ -1,5 +1,6 @@
 from lc.easy.lc283_move_zeroes import move_zeroes
 
+
 def test_basic():
     nums = [0,1,0,3,12]
     move_zeroes(nums)
