@@ -1,5 +1,6 @@
 from lc.medium.lc062_unique_paths import unique_paths
 
+
 def test_examples():
     assert unique_paths(3, 7) == 28
     assert unique_paths(3, 2) == 3
